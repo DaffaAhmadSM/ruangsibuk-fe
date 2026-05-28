@@ -5,11 +5,7 @@
 	class="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#E6C7FA]"
 >
 	<!-- Background image overlay -->
-	<img
-		src="/untitled325.png"
-		alt=""
-		class="absolute inset-0 h-full w-full object-cover opacity-50"
-	/>
+	<img src="/bghero.png" alt="" class="absolute inset-0 h-full w-full object-cover opacity-50" />
 
 	<!-- Hero content -->
 	<div class="relative z-10 flex flex-col items-center gap-4 px-4 md:gap-6">
@@ -26,7 +22,7 @@
 		</div>
 
 		<img
-			src="/avatar-1.png"
+			src="/avatar-1.webp"
 			alt=""
 			class="pointer-events-none mt-2 w-[min(40vw,321px)] translate-y-[-8%] rounded-full select-none"
 		/>

@@ -12,7 +12,7 @@
 
 	<!-- Decorative image -->
 	<img
-		src="/desain-tanpa-judul-8.png"
+		src="/qrjoin.svg"
 		alt="Discord illustration"
 		class="my-8 w-[60vw] max-w-137.5 md:w-[40vw] lg:w-137.5"
 	/>
@@ -28,11 +28,11 @@
 		Gabung Lewat Link
 	</a>
 
-	<!-- Discord handle (bottom right) -->
+	<!-- instagram handle (bottom right) -->
 	<div class="absolute right-8 bottom-20 flex items-center gap-3">
 		<img
-			src="/desain-tanpa-judul-10.png"
-			alt="Discord"
+			src="/logoig.webp"
+			alt="logo-instagram"
 			class="h-8 w-8 md:h-10 md:w-10 lg:h-12.75 lg:w-12.75"
 		/>
 		<span class="text-[#6E52B3]" style="font-size: clamp(0.875rem, 1.5vw, 2rem)">

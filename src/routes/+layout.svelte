@@ -1,7 +1,7 @@
 <script lang="ts">
 	import { resolve } from '$app/paths';
 	import './layout.css';
-	import favicon from '$lib/assets/favicon.svg';
+	import favicon from '$lib/assets/avatar-1.webp';
 
 	let { children } = $props();
 </script>
@@ -13,11 +13,7 @@
 	class="fixed top-0 right-0 left-0 z-50 flex items-center justify-between bg-[#F6EFEA]/[.95] px-[5.5%] py-3 shadow-md backdrop-blur-sm md:py-4"
 >
 	<a href={resolve('/')} class="shrink-0">
-		<img
-			src="/desain-tanpa-judul-6.png"
-			alt="Ruang Sibuk logo"
-			class="h-7 w-7 md:h-8 md:w-8 lg:h-10 lg:w-10"
-		/>
+		<img src="/homeicon.png" alt="Ruang Sibuk logo" class="h-7 w-7 md:h-8 md:w-8 lg:h-10 lg:w-10" />
 	</a>
 
 	<div class="flex items-center gap-3 sm:gap-6 md:gap-10 lg:gap-14">
@@ -45,7 +41,7 @@
 	</div>
 
 	<img
-		src="/avatar-1.png"
+		src="/avatar-1.webp"
 		alt="User avatar"
 		class="h-7 w-7 rounded-full md:h-10 md:w-10 lg:h-12 lg:w-12"
 	/>
