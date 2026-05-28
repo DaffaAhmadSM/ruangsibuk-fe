@@ -1,0 +1,35 @@
+//#region src/lib/Hero.svelte
+function Hero($$renderer) {
+	$$renderer.push(`<section class="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#E6C7FA]"><img src="/untitled325.png" alt="" class="absolute inset-0 h-full w-full object-cover opacity-50"/> <div class="relative z-10 flex flex-col items-center gap-4 px-4 md:gap-6"><div class="mb-4"><h1 class="text-center leading-tight font-bold text-[#6E52B3]" style="font-size: clamp(2rem, 5vw, 10rem)">Ruang Sibuk</h1> <p class="text-center text-[#6E52B3]" style="font-size: clamp(1rem, 1.67vw, 3rem)">untukmu yang cari kesibukan</p></div> <img src="/avatar-1.png" alt="" class="pointer-events-none mt-2 w-[min(40vw,321px)] translate-y-[-8%] rounded-full select-none"/> <button class="group relative cursor-pointer overflow-hidden rounded-[255px_15px_225px_15px/15px_225px_15px_255px] border-[3px] border-gray-800 bg-transparent px-6 py-3 font-bold text-gray-800 transition-transform duration-200 hover:scale-105 sm:px-8 sm:py-4 md:px-11 md:py-4" style="font-size: clamp(0.875rem, 1.25vw, 1.5rem)"><span class="relative z-10">Gabung Sekarang</span> <svg class="absolute inset-0 z-0 h-full w-full" preserveAspectRatio="none" viewBox="0 0 100 100"><path class="fill-transparent stroke-yellow-400 stroke-30 transition-all duration-600 ease-in-out [stroke-dasharray:1] [stroke-dashoffset:1] group-hover:[stroke-dashoffset:0]" stroke-linecap="round" stroke-linejoin="round" pathLength="1" d="M -10,20 L 110,10 L -10,40 L 110,30 L -10,60 L 110,50 L -10,80 L 110,70 L -10,105 L 110,95"></path></svg></button></div> <img src="/group-6.svg" alt="" class="pointer-events-none absolute bottom-0 left-0 w-full select-none"/></section>`);
+}
+//#endregion
+//#region src/lib/About.svelte
+function About($$renderer) {
+	$$renderer.push(`<section class="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#F6EFEA] px-4 py-20 md:py-28"><div class="relative z-10 flex w-full max-w-7xl flex-col items-center"><img src="/lol.svg" alt="LOL !" class="mb-10 max-w-32 min-w-24 -rotate-12"/> <h2 class="text-center text-2xl leading-tight font-bold text-[#6E52B3] outline-white sm:text-3xl md:text-4xl lg:text-4xl xl:text-5xl">Buat Kamu Yang<br class="md:hidden"/> Gabut dan Butuh Bahan Sibuk !</h2> <div class="relative mt-8 flex w-full flex-col items-center gap-6 md:mt-12 lg:flex-row lg:justify-evenly"><img src="/image-3.png" alt="" class="w-[15vw] shrink-0 -rotate-45 md:w-[16vw] lg:w-[17vw]"/> <p class="min-w-xs text-center text-2xl text-[#6E52B3] md:flex-1 md:px-4 lg:min-w-lg lg:px-12 lg:text-left lg:text-4xl xl:min-w-xl">Ruang Sibuk adalah komunitas daring santai tempat kamu bisa menemukan bahan sibuk untuk
+				mengisi waktu luang.</p> <img src="/gif-onye-1-2d2e38.gif" alt="Animation" class="w-[55vw] max-w-203 shrink-0 self-end md:static md:w-[30vw] lg:w-[35vw]"/></div></div> <img src="/vector-1.svg" alt="" class="pointer-events-none absolute top-0 left-0 w-[30vw] opacity-60 select-none md:w-[18vw] md:opacity-100"/> <img src="/vector-3.svg" alt="" class="pointer-events-none absolute bottom-0 left-[4%] hidden w-[25vw] select-none md:w-[18vw] lg:block"/> <img src="/vector-2.svg" alt="" class="pointer-events-none absolute top-0 right-0 hidden w-[25vw] select-none md:w-[18vw] lg:block"/></section>`);
+}
+//#endregion
+//#region src/lib/InviteLink.svelte
+function InviteLink($$renderer) {
+	$$renderer.push(`<section id="join" class="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#F6EFEA] px-4 py-20"><h2 class="text-center text-[#6E52B3]" style="font-size: clamp(1.25rem, 2.5vw, 2rem)">Bergabung ke Discord Ruang Sibuk:</h2> <img src="/desain-tanpa-judul-8.png" alt="Discord illustration" class="my-8 w-[60vw] max-w-137.5 md:w-[40vw] lg:w-137.5"/> <a href="https://discord.gg/VZWgxqdCcR" target="_blank" rel="noopener noreferrer" class="rounded-full border border-[#6E52B3] bg-[#F6EFEA] px-10 py-3 text-center text-[#6E52B3] shadow-md transition-transform hover:scale-105 active:scale-95" style="font-size: clamp(1rem, 2vw, 2rem); width: clamp(280px, 30vw, 465px)">Gabung Lewat Link</a> <div class="absolute right-8 bottom-20 flex items-center gap-3"><img src="/desain-tanpa-judul-10.png" alt="Discord" class="h-8 w-8 md:h-10 md:w-10 lg:h-12.75 lg:w-12.75"/> <span class="text-[#6E52B3]" style="font-size: clamp(0.875rem, 1.5vw, 2rem)">@ruang.sibuk</span></div></section>`);
+}
+//#endregion
+//#region src/lib/BottomPage.svelte
+function BottomPage($$renderer) {
+	$$renderer.push(`<section class="relative flex min-h-screen w-full flex-col items-center justify-center overflow-hidden bg-[#6E52B3]"><img src="/group-7.svg" alt="" class="pointer-events-none absolute top-0 left-0 w-full select-none"/> <div class="relative z-10 flex flex-col items-center gap-6 md:flex-row md:gap-8"><img src="/logo-an-6-1.png" alt="Ruang Sibuk logo" class="w-[25vw] max-w-37.5 md:w-37.5"/> <img src="/untitled252.png" alt="" class="w-[28vw] max-w-41.75 md:w-41.75"/></div> <img src="/desain-tanpa-judul-14.png" alt="" class="absolute bottom-[8%] left-1/2 w-8 -translate-x-1/2 md:w-10 lg:w-11.75"/></section>`);
+}
+//#endregion
+//#region src/routes/+page.svelte
+function _page($$renderer) {
+	Hero($$renderer);
+	$$renderer.push(`<!----> <section id="about">`);
+	About($$renderer);
+	$$renderer.push(`<!----></section> `);
+	InviteLink($$renderer);
+	$$renderer.push(`<!----> <section id="credits">`);
+	BottomPage($$renderer);
+	$$renderer.push(`<!----></section>`);
+}
+
+export { _page as default };
+//# sourceMappingURL=_page.svelte-mUNDkONk.js.map
