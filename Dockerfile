@@ -1,23 +1,21 @@
-FROM node:lts-slim AS base
+FROM node:lts as builder
+
 WORKDIR /app
+
 COPY package*.json ./
-
-FROM base AS prod-deps
-RUN mkdir -p /app/node_modules && npm ci --omit=dev --ignore-scripts
-
-FROM base AS builder
 COPY . .
+
 RUN npm ci
 RUN npm run build
 
-FROM node:lts-slim AS runner
+FROM node:lts-slim
 WORKDIR /app
+COPY --from=builder /app/build ./build
+COPY --from=builder /app/package*.json ./
+COPY --from=builder /app/.env ./
 
-COPY --from=prod-deps /app/node_modules ./node_modules
+CMD ["node", "--env-file=.env", "build/index.js"]
 
-COPY --from=builder /app/dist ./dist
-COPY --from=builder /app/package.json ./
+
 
 EXPOSE 3000
-
-CMD ["node", "dist/index.js"]
