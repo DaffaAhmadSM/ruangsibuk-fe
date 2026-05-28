@@ -1,7 +1,7 @@
-# https://ruangsibuk.my.id/robots.txt
+# https://ruangsibuk.com/robots.txt
 User-agent: *
 Allow: /
 Disallow:
 
 # Sitemap
-Sitemap: https://ruangsibuk.my.id/sitemap.xml
+Sitemap: https://ruangsibuk.com/sitemap.xml
