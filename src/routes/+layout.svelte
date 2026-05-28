@@ -6,7 +6,14 @@
 	let { children } = $props();
 </script>
 
-<svelte:head><link rel="icon" href={favicon} /></svelte:head>
+<svelte:head>
+	<title>Ruang Sibuk — Komunitas Daring Santai</title>
+	<meta
+		name="description"
+		content="Buat kamu yang gabut dan butuh bahan sibuk! Komunitas daring santai tempat kamu bisa menemukan bahan sibuk untuk mengisi luang."
+	/>
+	<link rel="icon" href={favicon} />
+</svelte:head>
 
 <!-- Fixed sticky nav - overlays all sections -->
 <nav

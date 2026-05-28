@@ -1,3 +1,7 @@
-# allow crawling everything by default
+# https://ruangsibuk.my.id/robots.txt
 User-agent: *
+Allow: /
 Disallow:
+
+# Sitemap
+Sitemap: https://ruangsibuk.my.id/sitemap.xml
