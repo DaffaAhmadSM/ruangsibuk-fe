@@ -26,7 +26,7 @@
 
 			<!-- Description -->
 			<p
-				class=" min-w-xs text-center text-2xl text-[#6E52B3] md:flex-1 md:px-4 md:text-left lg:min-w-lg lg:px-12 lg:text-4xl xl:min-w-xl"
+				class=" min-w-xs text-center text-2xl text-[#6E52B3] md:flex-1 md:px-4 lg:min-w-lg lg:px-12 lg:text-left lg:text-4xl xl:min-w-xl"
 			>
 				Ruang Sibuk adalah komunitas daring santai tempat kamu bisa menemukan bahan sibuk untuk
 				mengisi waktu luang.

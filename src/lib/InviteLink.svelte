@@ -19,7 +19,7 @@
 
 	<!-- CTA Button -->
 	<a
-		href="https://discord.gg/ruangsibuk"
+		href="https://discord.gg/VZWgxqdCcR"
 		target="_blank"
 		rel="noopener noreferrer"
 		class="rounded-full border border-[#6E52B3] bg-[#F6EFEA] px-10 py-3 text-center text-[#6E52B3] shadow-md transition-transform hover:scale-105 active:scale-95"
@@ -29,7 +29,7 @@
 	</a>
 
 	<!-- Discord handle (bottom right) -->
-	<div class="absolute right-8 bottom-8 flex items-center gap-3">
+	<div class="absolute right-8 bottom-20 flex items-center gap-3">
 		<img
 			src="/desain-tanpa-judul-10.png"
 			alt="Discord"

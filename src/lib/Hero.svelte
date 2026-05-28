@@ -1,11 +1,4 @@
 <script lang="ts">
-	import { resolve } from '$app/paths';
-
-	interface Props {
-		onJoin?: () => void;
-	}
-
-	let { onJoin }: Props = $props();
 </script>
 
 <section
@@ -17,51 +10,6 @@
 		alt=""
 		class="absolute inset-0 h-full w-full object-cover opacity-50"
 	/>
-
-	<!-- Top navigation -->
-	<nav
-		class="absolute top-0 right-0 left-0 z-20 flex items-center justify-between px-[5.5%] py-6 md:py-8"
-	>
-		<a href={resolve('/')} class="shrink-0">
-			<img
-				src="/desain-tanpa-judul-6.png"
-				alt="Ruang Sibuk logo"
-				class="h-8 w-8 md:h-10 md:w-10 lg:h-11.5 lg:w-11.5"
-			/>
-		</a>
-
-		<div class="flex items-center gap-4 sm:gap-8 md:gap-12 lg:gap-16">
-			<a
-				href="#about"
-				class="text-[#6E52B3] transition-opacity hover:opacity-80"
-				style="font-size: clamp(0.875rem, 1.25vw, 2rem)"
-			>
-				about
-			</a>
-			<a
-				href="#join"
-				class="text-[#6E52B3] transition-opacity hover:opacity-80"
-				style="font-size: clamp(0.875rem, 1.25vw, 2rem)"
-			>
-				bergabung
-			</a>
-			<a
-				href="#credits"
-				class="text-[#6E52B3] transition-opacity hover:opacity-80"
-				style="font-size: clamp(0.875rem, 1.25vw, 2rem)"
-			>
-				credits
-			</a>
-		</div>
-
-		<img
-			src="/avatar-1.png"
-			alt="User avatar"
-			class="h-8 w-8 rounded-full md:h-12 md:w-12 lg:h-17.5 lg:w-17.5"
-		/>
-	</nav>
-
-	<!-- Decorative large avatar (behind text) -->
 
 	<!-- Hero content -->
 	<div class="relative z-10 flex flex-col items-center gap-4 px-4 md:gap-6">
@@ -86,6 +34,7 @@
 		<button
 			class="group relative cursor-pointer overflow-hidden rounded-[255px_15px_225px_15px/15px_225px_15px_255px] border-[3px] border-gray-800 bg-transparent px-6 py-3 font-bold text-gray-800 transition-transform duration-200 hover:scale-105 sm:px-8 sm:py-4 md:px-11 md:py-4"
 			style="font-size: clamp(0.875rem, 1.25vw, 1.5rem)"
+			onclick={() => (window.location.href = '#join')}
 		>
 			<span class="relative z-10">Gabung Sekarang</span>
 
