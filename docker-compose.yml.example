@@ -1,0 +1,15 @@
+services:
+  ruangsibukfe:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: ruangsibukfe
+    ports:
+      - '3000:3000'
+    restart: unless-stopped
+    networks:
+      - ruangsibukfe_network
+
+networks:
+  ruangsibukfe_network:
+    driver: bridge
