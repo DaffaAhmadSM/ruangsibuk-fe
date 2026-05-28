@@ -10,7 +10,7 @@
 
 <!-- Fixed sticky nav - overlays all sections -->
 <nav
-	class="fixed top-0 right-0 left-0 z-50 flex items-center justify-between px-[5.5%] py-3 md:py-4"
+	class="fixed top-0 right-0 left-0 z-50 flex items-center justify-between bg-[#F6EFEA]/[.95] px-[5.5%] py-3 shadow-md backdrop-blur-sm md:py-4"
 >
 	<a href={resolve('/')} class="shrink-0">
 		<img

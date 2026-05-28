@@ -19,7 +19,7 @@
 
 		<!-- Content row -->
 		<div
-			class="relative mt-8 flex w-full flex-col items-center gap-6 md:mt-12 lg:flex-row lg:justify-evenly"
+			class="relative mt-4 flex w-full flex-col items-center gap-6 md:mt-12 lg:mt-0 lg:flex-row lg:justify-evenly"
 		>
 			<!-- Left image -->
 			<img src="/image-3.png" alt="" class="w-[15vw] shrink-0 -rotate-45 md:w-[16vw] lg:w-[17vw]" />
@@ -34,9 +34,9 @@
 
 			<!-- Right GIF -->
 			<img
-				src="/gif-onye-1-2d2e38.gif"
+				src="/gif-onye.gif"
 				alt="Animation"
-				class="w-[55vw] max-w-203 shrink-0 self-end md:static md:w-[30vw] lg:w-[35vw]"
+				class=" max-h-[90vh] w-[57vw] max-w-203 shrink-0 self-end md:static md:w-[32vw] md:-translate-y-32 lg:w-[40vw] xl:-translate-y-48"
 			/>
 		</div>
 	</div>
